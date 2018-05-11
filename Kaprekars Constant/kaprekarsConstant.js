@@ -14,6 +14,4 @@ function KaprekarsConstant(num) {
     return counter;
 }
 
-console.log(KaprekarsConstant(7317));
-
 module.exports = KaprekarsConstant;
