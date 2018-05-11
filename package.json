@@ -1,0 +1,16 @@
+{
+  "name": "coding-challenges",
+  "version": "1.0.0",
+  "description": "I regularly complete coding challenges online to try and improve my logical thinking and problem solving. This is the solutions to those challenges, as well as the description of the task if you want to attempt it first.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"**/*.test.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
