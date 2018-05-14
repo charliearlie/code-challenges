@@ -25,8 +25,8 @@ const testData = [
 ];
 
 describe('High And Low', () => {
-    testData.forEach(element => {
-        it(`should display ${element.expected} when the input is ${element.values}`, () => {
+    it(`should display the correct values`, () => {
+        testData.forEach(element => {
             expect(element.expected).to.equal(highAndLow(element.values));
         });
     });
